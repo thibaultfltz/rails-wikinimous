@@ -1,0 +1,11 @@
+<h1>All our philosophers</h1>
+<ul>
+  <% @articles.each do |article| %>
+    <li><%=article.title%></li>
+    <p><%=article.content%></p>
+  <% end %>
+</ul>
+<p></p>
+<p></p>
+
+
